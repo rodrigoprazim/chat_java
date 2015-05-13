@@ -38,7 +38,7 @@ public class Mensagem {
                     InputStreamReader isr = new InputStreamReader(s.getInputStream());
                     BufferedReader br = new BufferedReader(isr);
 
-                    while ((mensagem = br.readLine()) != "") {
+                    while ((mensagem = br.readLine()) != null) {
                         enviarMensagem(mensagem);
                     }
 
