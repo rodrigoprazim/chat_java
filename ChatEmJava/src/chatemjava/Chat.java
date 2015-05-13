@@ -56,7 +56,7 @@ public class Chat extends javax.swing.JFrame {
                     isr = new InputStreamReader(s.getInputStream());
                     br = new BufferedReader(isr);
                     
-                    while((mensagem = br.readLine()) != ""){
+                    while((mensagem = br.readLine()) != null){
                         
                         mensagemRecebida.setText(mensagemRecebida.getText() + mensagem + "\n");
                         if(!rodar){
