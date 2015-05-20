@@ -15,7 +15,7 @@ public class Servidor {
         
         if(escolha==1){
         
-            Conexao conexao = new Conexao(nome);
+            Conexao conexao = new Conexao(nome+" [Servidor]");
             
         }else{
             
