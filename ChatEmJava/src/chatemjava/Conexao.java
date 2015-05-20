@@ -26,7 +26,7 @@ public class Conexao {
 
         try {
             
-            Chat chat = new Chat(nome+" [Servidor]","127.0.0.1");
+            Chat chat = new Chat(nome,"127.0.0.1");
             chat.setVisible(true);
 
         } catch (Exception e) {
